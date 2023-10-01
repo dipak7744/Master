@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="65.341">
+<testcase classname="Compose Functionality in Gmail" name="Compose and Send Email" time="65.013">
+<system-out><![CDATA[Given User is on the Gmail login page.......................................passed
+When User log in with valid credentials.....................................passed
+And User click on the Compose button........................................passed
+And User wait for the compose window to appear..............................passed
+And User enter the recipient email address "dipakdemo66@gmail.com"..........passed
+And User enter the subject as "Incubyte"....................................passed
+And User enter the body as "Automation QA test for Incubyte"................passed
+And User click on the Send button...........................................passed
+Then the email should be sent successfully..................................passed
+When User navigate to the Sent folder.......................................passed
+And User click on "Incubyte" subject email..................................passed
+Then User should see a sent email with subject "Incubyte"...................passed
+And User should see the body "Automation QA test for Incubyte"..............passed
+]]></system-out>
+</testcase>
+</testsuite>
